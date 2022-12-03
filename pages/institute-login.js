@@ -1,4 +1,8 @@
-import Ilogin from "../components/account/TutionLogin";
+import Ilogin from "../components/account/InstituteLogin";
 export default function Home() {
-  return <></>;
+  return (
+    <>
+      <Ilogin />
+    </>
+  );
 }

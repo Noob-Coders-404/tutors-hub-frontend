@@ -31,7 +31,7 @@ export default function Ilogin() {
               <div>
                 <button>Login</button>
                 <p>
-                  Don't have an account? <span>Sign Up</span>
+                  Don&apos;t have an account? <span>Sign Up</span>
                 </p>
               </div>
             </div>
