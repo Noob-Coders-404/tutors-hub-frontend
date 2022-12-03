@@ -16,5 +16,18 @@
   "devDependencies": {
     "eslint": "8.26.0",
     "eslint-config-next": "13.0.0"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Noob-Coders-404/tutors-hub-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Noob-Coders-404/tutors-hub-frontend/issues"
+  },
+  "homepage": "https://github.com/Noob-Coders-404/tutors-hub-frontend#readme"
 }
