@@ -42,6 +42,27 @@ export default function SideBar() {
           </div>
         </div>
       </section>
+      <section className={styles.navbar}>
+        <div>
+
+        <div>
+          <img src="/images/dashboard/dashboardIcon.svg" alt="" />
+          <h3></h3>
+        </div>
+        <div>
+          <img src="/images/dashboard/subjects.svg" alt="" />
+          <h3>Subjects</h3>
+        </div>
+        <div>
+          <img src="/images/dashboard/timetable.svg" alt="" />
+          <h3>Timetable</h3>
+        </div>
+        <div>
+          <img src="/images/dashboard/messages.svg" alt="" />
+          <h3>Messages</h3>
+        </div>
+        </div>
+      </section>
     </>
   );
 }
