@@ -1,4 +1,5 @@
 import styles from "./ilogin.module.css";
+import Link from "next/link";
 
 export default function Ilogin() {
   return (
@@ -29,7 +30,9 @@ export default function Ilogin() {
                 <p>Forgot Password?</p>
               </div>
               <div>
-                <button>Login</button>
+                <Link href='/dashboard'>
+                <button className={styles.button}>Login</button>
+                </Link>
                 <p>
                   Don&apos;t have an account? <span>Sign Up</span>
                 </p>
