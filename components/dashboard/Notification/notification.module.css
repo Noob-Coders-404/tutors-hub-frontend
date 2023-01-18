@@ -17,6 +17,7 @@
     display: flex;
     align-items: center;
     color: #000000;
+    margin: 0;
 }
 
 .notification>div {
@@ -75,7 +76,6 @@
     align-items: center;
     letter-spacing: -0.025em;
     color: #555555;
-    width: 50%;
 }
 
 .content {

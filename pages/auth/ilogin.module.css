@@ -1,0 +1,159 @@
+.login {
+    color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    align-content: stretch;
+}
+
+.login>div:nth-child(1) {
+    background-color: rgb(42, 42, 42);
+    height: 100vh;
+    width: 50%;
+}
+
+.fields {
+    background-color: #DDDDDD;
+    width: 50%;
+    height: 100vh;
+}
+
+.fields>form {
+    width: 70%;
+    margin: 5rem auto;
+}
+
+.heading .image {
+    width: 80px;
+    height: 80px;
+    background-color: rgb(56, 79, 71);
+    float: left;
+    margin: 0 1rem 0 0;
+}
+
+.heading>div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+}
+
+.heading h1 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 100%;
+}
+
+.heading p {
+    margin: 0;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+}
+
+.subhead {
+    margin: 3rem 0;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+}
+
+.inputs>div {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 23px;
+}
+
+.inputs>div:nth-child(2)>p {
+    margin: 0;
+    text-align: right;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.inputs>div:nth-child(3)>p {
+    text-align: center;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #666666;
+
+}
+
+.inputs>div:nth-child(3)>p>span {
+    color: #000000;
+}
+
+.inputs input {
+    padding: 1rem;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 0;
+    color: #000;
+    outline: 0;
+}
+
+.inputs .button {
+    width: 100%;
+    height: 3rem;
+    border-radius: 8px;
+    border: 0;
+    outline: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}
+
+@media (max-width: 1535px) {}
+
+@media (max-width: 1279px) {
+    .heading h1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 1023px) {
+    .login>div:nth-child(1) {
+        height: 50vh;
+        width: 100%;
+    }
+
+    .login>div {
+        width: 100%;
+        height: auto;
+
+
+    }
+
+    .login>div:nth-child(2) {
+        border-radius: 18px;
+        margin-top: -1rem;
+
+    }
+
+    .login {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .heading {
+        display: none;
+    }
+
+    .fields>form {
+        width: 85%;
+        margin: 5rem auto;
+    }
+}
+
+@media (max-width: 767px) {}
+
+@media (max-width: 639px) {}

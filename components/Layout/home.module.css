@@ -1,0 +1,46 @@
+.dashboard {
+    display: flex;
+    background-color: #EFEFEF;
+}
+
+.container {
+    margin-left: 2rem;
+    display: flex;
+    gap: 3.5rem;
+    color: #000;
+}
+
+.title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    line-height: 31px;
+}
+
+.title>h2 {
+    font-weight: 400;
+    font-size: 24px;
+    color: #000000;
+}
+
+.title>h2>span {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+}
+
+.title>p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: right;
+    color: #555555;
+}
+.section2{
+    display: none;
+}
+.timetable{
+    width: 440px;
+    overflow-y: auto;
+}
