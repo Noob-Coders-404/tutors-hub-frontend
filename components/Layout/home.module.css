@@ -37,10 +37,7 @@
     text-align: right;
     color: #555555;
 }
-.section2{
-    display: none;
-}
-.timetable{
+
+/* .timetable{
     width: 440px;
-    overflow-y: auto;
-}
+} */
