@@ -34,21 +34,21 @@ const UpcomingExams = () => {
         {data.map((item,index)=>{
             return(
             <>
-        <div>
-            <div>
-          <h2>{item.date}</h2>
-          <h3>{item.month}, {item.day}</h3>
-            </div>
           <div>
+              <div>
+            <h2>{item.date}</h2>
+            <h3>{item.month}, {item.day}</h3>
+              </div>
+            <div>
 
-          <h4>{item.start} - {item.end}</h4>
-          <h5>{item.subject}</h5>
+            <h4>{item.start} - {item.end}</h4>
+            <h5>{item.subject}</h5>
+            </div>
           </div>
-        </div>
-        <div className={styles.line} />
-        </>
+          <div className={styles.line} />
+          </>
             )
-    })}
+        })}
     </div>
     </div>
   );
