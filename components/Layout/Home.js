@@ -5,6 +5,7 @@ import Profile from "../dashboard/Profile/Profile";
 import Notification from "../dashboard/Notification/Notification";
 import UpcomingExams from "../dashboard/UpcomingExams/UpcomingExams";
 import Head from "next/head";
+import PendingWorks from "../dashboard/PendingWorks/PendingWorks";
 
 const Home = () => {
   return (
@@ -30,6 +31,7 @@ const Home = () => {
           </div>
           <div className={styles.section2}>
             <Profile />
+            <PendingWorks />
           </div>
         </div>
       </div>
