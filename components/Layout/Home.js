@@ -23,11 +23,12 @@ const Home = () => {
               <h2>Hello, <span>NoobCoder101!</span></h2>
               <p>10 OCTOBER, 2022</p>
             </div>
-            <div className={styles.timetable}>
+            <div>
+
             <TimeTable />
-            </div>
             <Notification />
             <UpcomingExams />
+            </div>
           </div>
           <div className={styles.section2}>
             <Profile />

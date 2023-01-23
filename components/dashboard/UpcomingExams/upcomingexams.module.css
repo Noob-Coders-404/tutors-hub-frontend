@@ -7,6 +7,8 @@
     font-size: 20px;
     line-height: 26px;
     color: #000000;
+    margin-bottom: .5rem;
+    margin-left: .5rem;
 }
 
 .container {
@@ -26,14 +28,17 @@
     gap: 1rem;
     flex-wrap: wrap;
 }
-.container>div>div{
+
+.container>div>div {
     display: flex;
     gap: 1rem;
     align-items: center;
 }
-.line{
+
+.line {
     border-bottom: 1px solid rgb(199, 199, 199);
 }
+
 .container h2 {
     font-weight: 700;
     font-size: 20px;
@@ -57,19 +62,22 @@
     font-size: 16px;
     line-height: 21px;
 }
+
 @media (max-width:639px) {
-    .container>div{
+    .container>div {
         justify-content: space-between;
     }
-    .container>div>div:nth-child(1){
+
+    .container>div>div:nth-child(1) {
         flex-direction: row;
 
     }
-    .container>div>div:nth-child(2){
+
+    .container>div>div:nth-child(2) {
         flex-direction: column;
         gap: .2rem;
-    align-items: flex-start;
+        align-items: flex-start;
 
-        
+
     }
 }
