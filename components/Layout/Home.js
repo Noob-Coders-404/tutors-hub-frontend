@@ -14,9 +14,9 @@ const Home = () => {
         <title>Dashboard</title>
       </Head>
       <div className={styles.dashboard}>
-        <div>
           <SideBar />
-        </div>
+        <div className={styles.spaceholder}/>
+        
         <div className={styles.container}>
           <div>
             <div className={styles.title}>

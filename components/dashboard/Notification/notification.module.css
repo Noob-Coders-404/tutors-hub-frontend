@@ -6,6 +6,8 @@
     display: flex;
     align-items: center;
     color: #000000;
+    color: #FFD043;
+
 }
 
 .notification>div>h2 {
@@ -17,6 +19,7 @@
     color: #000000;
     margin-bottom: .5rem;
     margin-left: .5rem;
+    
 }
 
 .notification>div {
@@ -30,9 +33,10 @@
     flex-direction: column;
     color: #000000;
     gap: 1rem;
-    background-color: #fff;
-    background: #FFFFFF;
+    background: #EBEFFF;
+    box-shadow: 5px 6px 7px -5px rgba(0,0,0,0.75);
     border-radius: 12px;
+    padding: 1rem .5rem;
 }
 
 .container>div {

@@ -1,13 +1,15 @@
 .dashboard {
     display: flex;
-    background-color: #EFEFEF;
 }
-
+.spaceholder{
+    width: 190px;
+}
 .container {
     margin-left: 2rem;
     display: flex;
     gap: 3.5rem;
     color: #000;
+    z-index: 99;
 }
 .container>div>div:nth-child(2){
     display: flex;

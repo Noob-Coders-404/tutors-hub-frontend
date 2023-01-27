@@ -1,6 +1,7 @@
 .timetable {
     display: flex;
     flex-direction: column;
+
 }
 
 .timetable>h2 {
@@ -15,7 +16,9 @@
 .container {
     display: flex;
     color: #000;
-    background-color: #FFFFFF;
+    background: #EBEFFF;
+    box-shadow: 5px 6px 7px -5px rgba(0,0,0,0.75);
+    border-radius: 15px;
     border-radius: 12px;
     width: 640px;
     gap: 1rem;
@@ -69,10 +72,13 @@
     text-align: center;
     color: #555555;
     margin: 0;
+    margin-bottom: 12px;
 }
 
 .subjects>div>span {
-    background: #D9D9D9;
+    background: #F7EFD8;
+    box-shadow: 1px 2px 7px -5px rgba(0,0,0,0.75);
+
     border-radius: 4px;
     font-weight: 500;
     font-size: 14px;

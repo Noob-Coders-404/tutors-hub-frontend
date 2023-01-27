@@ -1,3 +1,9 @@
+:root {
+  --primary-color:#EBEFFF;
+  --bg-sidebar:#EBEFFF;
+  --main-bg:#fff
+
+}
 html,
 body {
   padding: 0;
@@ -25,13 +31,7 @@ h1,h2,h3,h4,h5,h6,p{
     color-scheme: dark;
   }
   body {
-    color: white;
-    background-color: #EFEFEF;
+    color: #000;
+    background-color:var(--main-bg)
   }
-}
-:root {
-  --primary-color:#ebe2ff;
-  --bg-sidebar:#fcfbfd;
-  
-
 }
