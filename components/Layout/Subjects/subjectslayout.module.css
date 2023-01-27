@@ -1,0 +1,20 @@
+.subjectslayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subjects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 8rem 0;
+}
+
+
+.subjects>div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.8rem;
+}

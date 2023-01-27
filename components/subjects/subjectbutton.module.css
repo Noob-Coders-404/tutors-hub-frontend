@@ -1,0 +1,15 @@
+.subjectbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 180px;
+    border-radius: 12px;    
+    background-color: #ffffff;
+}
+
+.subjectbutton>h2{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+}

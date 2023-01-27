@@ -1,0 +1,45 @@
+.userdisplaybutton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    gap: 24px;
+    
+    position: fixed;
+    width: 202px;
+    height: 56px;
+    left: 1158px;
+    top: 24px;
+    
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+.notification{
+    font-size: 24px;
+    position: absolute;
+    left: -40px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    width: 146px;
+    height: 40px;
+}
+
+.container>img{
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+}
+
+.container>h2{
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+}
